@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "es6",
+        "baseUrl": ".src", // Đặt thư mục gốc của dự án của bạn ở đây
+        "paths": {
+            "@/*": [
+                "*"
+            ]
+        }
+    },
+    "exclude": ["node_modules"]
+}
